@@ -1,0 +1,27 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: #1F2937;
+    padding: 1%;
+    align-items: baseline;
+}
+
+#logo{
+    color:  #F9FAF8; 
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.secondFlex{
+    display: flex;
+    gap: 3rem
+}
+
+.secondFlex a:hover{
+    color: lightskyblue;
+}
+
+a{
+    color:  #F9FAF8; 
+    text-decoration: none;
+}
