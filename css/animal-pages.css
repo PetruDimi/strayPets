@@ -149,4 +149,16 @@ footer {
         margin-bottom: 15px;
         width: 150px;
     }
+
+    .cards h2 {
+        font-size: large;
+    }
+
+    .animal-card h3 {
+        font-size: medium;
+    }
+
+    .animal-card p {
+        font-size: small;
+    }
 }
