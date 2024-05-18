@@ -87,6 +87,7 @@ footer {
     font-size: larger;
     font-weight: 800;
     font-family: "Roboto";
+    text-align: left;
     color: #1f2937;
     align-self: flex-start;
     margin: 0;
