@@ -236,6 +236,10 @@ h2 {
     border: solid 5px #3882f6;
 }
 
+.burger {
+    display: none;
+}
+
 figcaption {
     font-family: "Roboto-Thin";
 }
@@ -248,4 +252,35 @@ footer {
     background-color: #1f2937;
     color: #e5e7eb;
     margin-top: 2rem;
+}
+
+@media (max-width: 800px) {
+    .takeAction {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem 2rem;
+        margin: 0 2rem;
+        background-color: #3882f6;
+    }
+
+    .takeAction div h2 {
+        font-size: large;
+        align-self: flex-start;
+    }
+
+    .secondFlex {
+        display: none;
+    }
+
+    .burger {
+        display: flex;
+        width: 40px;
+        height: 40px;
+    }
+
+    .dropdown-content {
+        right: 0;
+        top: 24;
+    }
 }

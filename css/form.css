@@ -79,3 +79,28 @@ button[type="submit"] {
     border-radius: 5px;
     font-size: large;
 }
+
+@media (max-width: 800px) {
+    .form-input {
+        width: 100%;
+    }
+    .extra-info {
+        display: none;
+    }
+
+    form {
+        padding: 1rem;
+    }
+
+    form div label {
+        flex-basis: 40%;
+    }
+
+    form div input,
+    form div select {
+        flex-basis: 60%;
+        padding: 5px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+    }
+}

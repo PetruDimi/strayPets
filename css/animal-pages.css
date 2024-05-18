@@ -128,3 +128,24 @@ footer {
 .offer button {
     width: 100%;
 }
+
+@media (max-width: 800px) {
+    .article-title h1 {
+        font-size: x-large;
+        font-weight: 800;
+        color: #1f2937;
+    }
+
+    .article-layout article p {
+        font-size: small;
+    }
+
+    .animal-card {
+        border: 2px solid #1f2937;
+        flex: 0 0 calc(100% - 10px);
+        border-radius: 5px;
+        padding: 15px;
+        margin-bottom: 15px;
+        width: 150px;
+    }
+}
