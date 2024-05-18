@@ -1,0 +1,124 @@
+.animal-detail {
+    font-family: "Roboto";
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-left: 9%;
+    padding-right: 9%;
+}
+
+.animal-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.animal-card {
+    border: 2px solid #1f2937;
+    flex: 0 0 calc(50% - 10px);
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+    width: 150px;
+}
+
+.animal-card h3 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-family: "Roboto";
+}
+
+.animal-card p {
+    margin: 0;
+}
+
+.animal-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.animal-image {
+    width: 60%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.cards {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    border-radius: 10px;
+    padding: 16px 24px;
+}
+
+.cards h2 {
+    margin: 0;
+    margin-bottom: 1rem;
+    font-family: "Roboto";
+}
+
+.article-layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+    font-family: "Roboto-Thin";
+    font-weight: 900;
+}
+
+.article-layout article {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+}
+
+.article-layout article h2 {
+    font-size: larger;
+    font-weight: 800;
+    font-family: "Roboto";
+    color: #1f2937;
+    align-self: flex-start;
+    margin: 0;
+}
+
+.article-layout article p {
+    margin: 0;
+}
+
+.article-title {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.article-title h1 {
+    font-size: xx-large;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.article-title p {
+    font-size: small;
+    font-weight: 100;
+    color: #1f2937;
+}
+
+.offer {
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto";
+    gap: 1rem;
+}
+
+.offer h2 {
+    margin-bottom: 0;
+}
+
+.offer button {
+    width: 100%;
+}

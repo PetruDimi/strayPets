@@ -4,6 +4,132 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Adoption Form</title>
+        <link rel="stylesheet" href="../css/index.css" />
+        <link rel="stylesheet" href="../css/form.css" />
     </head>
-    <body></body>
+    <body>
+        <header>
+            <nav>
+                <div id="logo">
+                    <img
+                        src="../images/logo1.png"
+                        alt="there should have been a logo here"
+                    />
+                    <p>StrayPets</p>
+                </div>
+                <div class="secondFlex">
+                    <a href="../index.html">Home</a>
+                    <div class="dropdown">
+                        <a href="#">Pets</a>
+                        <div class="dropdown-content">
+                            <a href="./details/dogs.html">Dogs</a>
+                            <a href="">Cats</a>
+                        </div>
+                    </div>
+                    <a href="" class="active-link"><b>Adopt</b></a>
+                    <a href="./AboutUs.html">About</a>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section class="form">
+                <article class="form-input">
+                    <h1>Adoption Form</h1>
+                    <form action="">
+                        <div>
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required />
+                        </div>
+                        <div>
+                            <label for="email">Email:</label>
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                required
+                            />
+                        </div>
+                        <div>
+                            <label for="phone">Phone:</label>
+                            <input
+                                type="tel"
+                                id="phone"
+                                name="phone"
+                                required
+                            />
+                        </div>
+                        <div>
+                            <label for="address">Address:</label>
+                            <input
+                                type="text"
+                                id="address"
+                                name="address"
+                                required
+                            />
+                        </div>
+                        <div>
+                            <label for="city">City:</label>
+                            <input type="text" id="city" name="city" required />
+                        </div>
+                        <div>
+                            <label for="state">State/Province:</label>
+                            <input
+                                type="text"
+                                id="state"
+                                name="state"
+                                required
+                            />
+                        </div>
+                        <div>
+                            <label for="zip">Zip:</label>
+                            <input type="number" id="zip" name="zip" required />
+                        </div>
+                        <div>
+                            <label for="pet">Pet:</label>
+                            <select name="pet" id="pet">
+                                <option value="dog">Dog</option>
+                                <option value="cat">Cat</option>
+                                <option value="bird">Bird</option>
+                                <option value="fish">Fish</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="petBreed">Pet Breed:</label>
+                            <input
+                                type="text"
+                                id="petBreed"
+                                name="petBreed"
+                                required
+                            />
+                        </div>
+                        <div>
+                            <label for="petGender">Pet Gender:</label>
+                            <select name="petGender" id="petGender">
+                                <option value="">Select Gender</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="petName">Pet Name:</label>
+                            <input
+                                type="text"
+                                id="petName"
+                                name="petName"
+                                required
+                            />
+                        </div>
+                    </form>
+                    <button type="submit">Submit</button>
+                </article>
+                <div class="extra-info">
+                    <h3>The pets needs you!</h3>
+                    <img
+                        src="../images/familyAndPets.jpg"
+                        alt="animals are a part of your family"
+                    />
+                </div>
+            </section>
+        </main>
+    </body>
 </html>
