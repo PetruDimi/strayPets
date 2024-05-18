@@ -37,6 +37,11 @@ nav {
     padding-right: 9%;
 }
 
+figcaption {
+    font-weight: 1000;
+    margin: 10px;
+}
+
 #logo {
     display: flex;
 }
