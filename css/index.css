@@ -1,15 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Roboto' ;
+    src: url(RobotoFonts/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-Thin';
+    src: url(RobotoFonts/Roboto-Thin.ttf);
+}
+
+body{
+    font-family: 'Roboto';
+    margin: 0;
+}
+
+
 nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
     background-color: #1F2937;
-    padding: 1%;
-    align-items: baseline;
+    padding-left: 9%;
+    padding-right: 9%;
 }
 
 #logo{
+    display: flex;
+}
+
+#logo img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-top: 12px;
+}
+
+#logo p{
     color:  #F9FAF8; 
     font-size: 24px;
-    font-weight: bolder;
+    font-weight: 800;
+    padding-left: 9%;
 }
 
 .secondFlex{
@@ -24,4 +57,81 @@ nav{
 a{
     color:  #F9FAF8; 
     text-decoration: none;
+}
+
+h1{
+    margin: 0;
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.thirdFlex p{
+    font-size: 18px;
+    color: #E5E7EB;
+    font-family: "Roboto-Thin";
+}
+
+
+
+.thirdFlex{
+    background-color: #1F2937;
+    display: flex;
+    padding-left: 9%;
+    padding-right: 9%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.thirdFlex button{
+    background-color: #3882f6;
+    border-radius: 5px;
+    font-size: large;
+    padding: 15px;
+    border: none;
+    align-self: flex-start;
+}
+
+.thirdFlex button:hover{
+    transform: scale(1.1);
+}
+
+.fourthFlex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.thirdFlex img{
+    width: 60%;
+    height: auto;
+}
+
+figure, .quote, .takeAction{
+    background-color: #F9FAF8;
+}
+
+h2{
+    text-align: center;
+}
+
+.petImages{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0;
+}
+
+.petImages img{
+    border-radius: 10px;
+    border: solid 5px #3882f6;
+}
+
+figcaption{
+    font-family: "Roboto-Thin" 
+}
+
+footer{
+    background-color: #1F2937;
+    color: #E5E7EB;
 }
