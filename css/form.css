@@ -1,11 +1,17 @@
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
 .form {
     font-family: "Roboto";
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 1rem;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin: 100px 0 64px 0;
+    padding-bottom: 2rem;
     padding-left: 9%;
     padding-right: 9%;
 }
@@ -40,7 +46,7 @@ form {
     flex-direction: column;
     width: 100%;
     margin: auto;
-    padding: 20px;
+    padding: 3rem;
     background-color: #1f2937;
     border-radius: 10px;
 }

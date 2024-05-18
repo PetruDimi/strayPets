@@ -12,6 +12,17 @@
     src: url(../RobotoFonts/Roboto-Thin.ttf);
 }
 
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+}
+
+main {
+    margin-top: 64px;
+}
+
 body {
     font-family: "Roboto";
     margin: 0;
@@ -228,7 +239,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 80px;
+    height: 64px;
     background-color: #1f2937;
     color: #e5e7eb;
     margin-top: 2rem;
