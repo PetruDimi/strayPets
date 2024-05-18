@@ -1,81 +1,78 @@
-*{
+* {
     box-sizing: border-box;
 }
 
 @font-face {
-    font-family: 'Roboto' ;
+    font-family: "Roboto";
     src: url(RobotoFonts/Roboto-Black.ttf);
 }
 
 @font-face {
-    font-family: 'Roboto-Thin';
+    font-family: "Roboto-Thin";
     src: url(RobotoFonts/Roboto-Thin.ttf);
 }
 
-body{
-    font-family: 'Roboto';
+body {
+    font-family: "Roboto";
     margin: 0;
 }
 
-
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #1F2937;
+    background-color: #1f2937;
     padding-left: 9%;
     padding-right: 9%;
 }
 
-#logo{
+#logo {
     display: flex;
 }
 
-#logo img{
+#logo img {
     border-radius: 50%;
     width: 50px;
     height: 50px;
     margin-top: 12px;
 }
 
-#logo p{
-    color:  #F9FAF8; 
+#logo p {
+    color: #f9faf8;
     font-size: 24px;
     font-weight: 800;
     padding-left: 9%;
 }
 
-.secondFlex{
+.secondFlex {
     display: flex;
-    gap: 3rem
+    gap: 3rem;
 }
 
-.secondFlex a:hover{
+.secondFlex a:hover {
     color: lightskyblue;
 }
 
-a{
-    color:  #F9FAF8; 
+a {
+    color: #f9faf8;
     text-decoration: none;
 }
 
-h1{
+h1 {
     margin: 0;
     font-size: 48px;
     font-weight: 800;
-    color: #F9FAF8;
+    color: #f9faf8;
 }
 
-.thirdFlex p{
+.thirdFlex p {
     font-size: 18px;
-    color: #E5E7EB;
+    color: #e5e7eb;
     font-family: "Roboto-Thin";
 }
 
-
-
-.thirdFlex{
-    background-color: #1F2937;
+.thirdFlex {
+    background-color: #1f2937;
     display: flex;
     padding-left: 9%;
     padding-right: 9%;
@@ -83,7 +80,7 @@ h1{
     padding-bottom: 5%;
 }
 
-.thirdFlex button{
+.thirdFlex button {
     background-color: #3882f6;
     border-radius: 5px;
     font-size: large;
@@ -92,46 +89,48 @@ h1{
     align-self: flex-start;
 }
 
-.thirdFlex button:hover{
+.thirdFlex button:hover {
     transform: scale(1.1);
 }
 
-.fourthFlex{
+.fourthFlex {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 
-.thirdFlex img{
+.thirdFlex img {
     width: 60%;
     height: auto;
 }
 
-figure, .quote, .takeAction{
-    background-color: #F9FAF8;
+figure,
+.quote,
+.takeAction {
+    background-color: #f9faf8;
 }
 
-h2{
+h2 {
     text-align: center;
 }
 
-.petImages{
+.petImages {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin: 0;
 }
 
-.petImages img{
+.petImages img {
     border-radius: 10px;
     border: solid 5px #3882f6;
 }
 
-figcaption{
-    font-family: "Roboto-Thin" 
+figcaption {
+    font-family: "Roboto-Thin";
 }
 
-footer{
-    background-color: #1F2937;
-    color: #E5E7EB;
+footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
 }
